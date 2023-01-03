@@ -1,3 +1,6 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+}
 .container {
     display: flex;
     justify-content: center;
@@ -10,4 +13,23 @@
     border: solid black 1px;
     width: 800px;
     height: 300px;
+    display: grid;
+}
+
+.top {
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Font Color Top */
+.title {
+color: hsl(179, 62%, 43%);
+}
+.sub-title {
+color: hsl(71, 73%, 54%);
+}
+.text {
+color: hsl(218, 22%, 67%);
+font-size: 16px;
 }
