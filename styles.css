@@ -33,3 +33,9 @@ color: hsl(71, 73%, 54%);
 color: hsl(218, 22%, 67%);
 font-size: 16px;
 }
+
+/* Bottom */
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
